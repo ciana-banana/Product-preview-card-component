@@ -11,31 +11,30 @@
   height: 100%;
   margin: 10% auto;
   background-color: #fff;
+  border-radius: 20px;
   
 }
 
 div.main_image {
   background-image: url(/images/image-product-desktop.jpg);
   width: 100%;
-  height: 525px;
+  height: inherit;
   padding: 0;
   margin: 0;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #fff;
+  border-radius: 20px;
+  float: left;
+}
+.main_text{
+  float: right;
 }
 
-.main_text {
+.main_text, .main_text p, .main_text h1 {
   background-color: #fff;
 }
 
-.main_text p {
-  background-color: #fff;
-}
-
-.main_text h1 {
-  background-color: #fff;
-}
 
 /*mobile version*/
 @media screen and (max-width: 480px) {
