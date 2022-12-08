@@ -58,8 +58,41 @@ body {
   letter-spacing: 5px;
 }
 
+.perfume_name {
+  font-family: "Fraunces"; 
+  font-size: 40px;
+  color:hsl(212, 21%, 14%);
+  line-height: 40px;
+}
+
+.perfume_description {
+  font-size: 18px;
+  line-height: 30px;
+}
+.container_prices {
+  display: flex;
+  background-color: #fff;
+}
+
+.first_price {
+  color: #01714a;
+  font-family: "Fraunces"; 
+  font-size: 40px;
+  font-weight: 700;
+  width: 60%;
+  background-color: #fff;
+  display: inline-block;
+  
+}
+
+.second_price {
+  width: 45%;
+  margin: 20px;
+  background-color: #fff;
+}
+
 /*mobile version*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   body {
     background-color: red;
   }
