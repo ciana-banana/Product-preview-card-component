@@ -69,6 +69,7 @@ body {
   font-size: 18px;
   line-height: 30px;
 }
+
 .container_prices {
   display: flex;
   background-color: #fff;
@@ -81,14 +82,21 @@ body {
   font-weight: 700;
   width: 60%;
   background-color: #fff;
-  display: inline-block;
-  
 }
 
 .second_price {
   width: 45%;
   margin: 20px;
   background-color: #fff;
+}
+
+button {
+  background-color: #01714a;
+  color: #fff;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 /*mobile version*/
