@@ -98,7 +98,12 @@ button {
   border-radius: 10px;
   font-size: 15px;
 }
-i {background-color: #01714a;}
+i {background-color: transparent;}
+
+button:hover {
+  background-color:#003623;
+  cursor: pointer;
+}
 
 /*mobile version*/
 @media screen and (max-width: 375px) {
