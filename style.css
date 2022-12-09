@@ -139,4 +139,12 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+
+  .perfume_name {
+    font-family: "Fraunces"; 
+    font-size: 32px;
+    margin-top: 0;
+    color:hsl(212, 21%, 14%);
+    line-height: 35px;
+  }
 }
