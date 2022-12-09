@@ -107,9 +107,6 @@ button:hover {
 
 /*mobile version*/
 @media screen and (max-width: 375px) {
-  body {
-    background-color: red;
-  }
 
   .main_container {
     display: flex;
@@ -121,5 +118,17 @@ button:hover {
     background-color: #fff;
     border-radius: 20px;
     margin: 10% auto;
+  }
+
+  .main_image {
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .main_image img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
   }
 }
